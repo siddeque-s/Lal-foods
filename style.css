@@ -1,0 +1,311 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(./assets/body-bg.jpg) no-repeat center;
+  overflow-x: hidden;
+}
+
+/* section1 */
+#section1 {
+  background: url(./assets/hero-bg-removebg-preview.png) no-repeat center center;
+  background-size: cover;
+  width: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+.navHeading {
+  font-size: 30px;
+  font-weight: 700;
+}
+.parentsec1 {
+  height: 50%;
+}
+
+.section1HeadingSpecialColor {
+  color: #ffc107;
+  font-family: "Bodoni Moda SC", serif;
+}
+.divContentSection1 {
+  width: 80%;
+}
+.section1Heading {
+  margin-top: 10%;
+  font-family: "Bodoni Moda SC", serif;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.allpara {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
+.section1Button {
+  background-color: #ffc107;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.section1Button:hover {
+  background-color: #e0a800;
+}
+.btnparentsec1 {
+  margin-top: 5%;
+}
+.slidercontent {
+  margin-top: 3%;
+}
+.sliderImagesSec1 {
+  border: 7px solid black;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 50%;
+}
+.slidersec1Img {
+  height: 37vh;
+}
+#sliderimg1 {
+  position: relative;
+  top: 5vh;
+}
+#sliderimg4 {
+  position: relative;
+  top: 5vh;
+}
+
+
+
+
+/* section 2 */
+#section2{
+    margin-top: 7%;
+}
+.section2megaparent{
+    margin: 0% 15%;
+}
+.sec2heading1div{
+    font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.specialfeatureSec2Head{
+     font-family: "Bodoni Moda SC", serif;
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: 5px solid #ff5a00;
+    box-sizing: border-box;
+
+}
+.imageheading{
+     font-family: "Bodoni Moda SC", serif;
+     font-size: 25px;
+
+}
+.imgcardssection2{
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0 0 20px white;
+    transition: 0.8s;
+}
+.imgcardssection2:hover{
+     box-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+.buttonSec2imagedown{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.btnSec2DownBtu{
+  padding: 10px 24px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 60px;
+}
+#sec2secondbtngreen{
+  background-color: #25D366;
+  color: white;
+}
+#btn1stsec2down{
+  background-color: #ffe537 ;
+}
+
+
+/* section 3 */
+
+#section3{
+   background: url(https://www.lalfoods.com/images/app-bg.png) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 130vh;
+  height: auto;
+  
+}
+.megaparentsec3{
+  height: 130vh;
+  margin: 0% 20%;
+}
+#section3btn{
+  background-color: #5de990;
+}
+.imagesec3phone{
+  height: auto;
+  max-height: 450px;
+  margin-left: 2%;
+}
+.section3leftheading{
+  font-size: 35px;
+  color: white;
+  
+}
+.specialsec3ColoeChange{
+  font-size: 35px;
+  color: #ffe537;
+}
+.sec3para{
+  color: white;
+}
+
+
+/* section 4 */
+.section4parent{
+  margin: 0% 20%;
+  margin-top: 5%;
+}
+
+.section4headingabout{
+  font-size: 35px;
+  font-weight: 600;
+ font-family: "Bodoni Moda SC", serif;
+
+}
+
+/* section 5 */
+.section5parent{
+  margin: 0% 15%;
+}
+.section5heading{
+    font-size: 35px;
+  font-weight: 600;
+ font-family: "Bodoni Moda SC", serif;
+
+}
+.imgsec5{
+   border-radius: 40px;
+    box-shadow: 0 0 20px white;
+    transition: 0.8s;
+
+}
+.headingSec5Cards{
+  font-size: 28px;
+  font-weight: 650;
+}
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+  .section1Heading {
+    font-size: 3rem;
+    margin-top: 8%;
+  }
+
+  .allpara {
+    font-size: 15px;
+    padding: 0 20px;
+  }
+
+  .slidercontent {
+    gap: 20px;
+  }
+
+  .slidersec1Img {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 768px) {
+  #section1 {
+    min-height: auto;
+    padding: 40px 0;
+  }
+
+  .section1Heading {
+    font-size: 2.2rem;
+
+    margin-top: 5%;
+  }
+
+  .allpara {
+    font-size: 14px;
+
+    padding: 0 15px;
+  }
+
+  .section1Button {
+    font-size: 16px;
+    padding: 12px 30px;
+  }
+
+  .sliderImagesSec1 {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .slidersec1Img {
+    height: 25vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .navHeading {
+    font-size: 22px;
+  }
+
+  .section1Heading {
+    font-size: 1.8rem;
+  }
+
+  .section1Button {
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .sliderImagesSec1 {
+    width: 100%;
+  }
+
+  .slidersec1Img {
+    height: 22vh;
+  }
+}
+
+

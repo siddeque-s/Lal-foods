@@ -79,233 +79,265 @@ body {
   top: 5vh;
 }
 
-
-
-
 /* section 2 */
-#section2{
-    margin-top: 7%;
+#section2 {
+  margin-top: 7%;
 }
-.section2megaparent{
-    margin: 0% 15%;
+.section2megaparent {
+  margin: 0% 15%;
 }
-.sec2heading1div{
-    font-family: "Bodoni Moda SC", serif;
-    font-weight: 600;
-    font-size: 40px;
+.sec2heading1div {
+  font-family: "Bodoni Moda SC", serif;
+  font-weight: 600;
+  font-size: 40px;
 }
-.specialfeatureSec2Head{
-     font-family: "Bodoni Moda SC", serif;
-    font-weight: 600;
-    font-size: 40px;
-    border-bottom: 5px solid #ff5a00;
-    box-sizing: border-box;
-
+.specialfeatureSec2Head {
+  font-family: "Bodoni Moda SC", serif;
+  font-weight: 600;
+  font-size: 40px;
+  border-bottom: 5px solid #ff5a00;
+  box-sizing: border-box;
 }
-.imageheading{
-     font-family: "Bodoni Moda SC", serif;
-     font-size: 25px;
-
+.imageheading {
+  font-family: "Bodoni Moda SC", serif;
+  font-size: 25px;
 }
-.imgcardssection2{
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    box-shadow: 0 0 20px white;
-    transition: 0.8s;
+.imgcardssection2 {
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  box-shadow: 0 0 20px white;
+  transition: 0.8s;
 }
-.imgcardssection2:hover{
-     box-shadow: 0 0 10px rgb(0, 0, 0);
-
+.imgcardssection2:hover {
+  box-shadow: 0 0 10px rgb(0, 0, 0);
 }
-.buttonSec2imagedown{
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+.buttonSec2imagedown {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
 }
-.btnSec2DownBtu{
+.btnSec2DownBtu {
   padding: 10px 24px;
   border: none;
   font-size: 20px;
   font-weight: 600;
   border-radius: 60px;
 }
-#sec2secondbtngreen{
-  background-color: #25D366;
+#sec2secondbtngreen {
+  background-color: #25d366;
   color: white;
 }
-#btn1stsec2down{
-  background-color: #ffe537 ;
+#btn1stsec2down {
+  background-color: #ffe537;
 }
-
 
 /* section 3 */
-
-#section3{
-   background: url(https://www.lalfoods.com/images/app-bg.png) no-repeat center center;
+#section3 {
+  background: url(./assets/paninewest.png) no-repeat center center;
   background-size: cover;
-  overflow: hidden;
-  min-height: 130vh;
+  min-height: 130vh; 
   height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
   
 }
-.megaparentsec3{
-  height: 130vh;
-  margin: 0% 20%;
+
+.megaparentsec3 {
+  min-height: 100vh; 
+  height: auto;
+  margin: 0 20%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
-#section3btn{
+
+#section3btn {
   background-color: #5de990;
 }
-.imagesec3phone{
+
+.imagesec3phone {
   height: auto;
-  max-height: 450px;
-  margin-left: 2%;
+  max-height: 400px; 
+  width: 100%;
+  object-fit: contain; 
 }
-.section3leftheading{
-  font-size: 35px;
+
+.section3leftheading {
+  font-size: 5vh;
   color: white;
-  
 }
-.specialsec3ColoeChange{
-  font-size: 35px;
+
+.specialsec3ColoeChange {
+  font-size: 5vh;
   color: #ffe537;
 }
-.sec3para{
+
+.sec3para {
   color: white;
 }
 
+@media (max-width: 1100px) {
+  #section3 {
+    min-height: 120vh;
+    background-size: cover;
+  }
+  .megaparentsec3 {
+    margin: 0 5%; 
+  }
+}
+
+@media (max-width: 992px) {
+  #section3 {
+    min-height: 140vh;
+    background-size: cover;
+  }
+  .section3leftheading,
+  .specialsec3ColoeChange {
+    font-size: 4vh; 
+  }
+  .imagesec3phone {
+    max-height: 350px; 
+  }
+}
+
+@media (max-width: 768px) {
+  #section3 {
+    min-height: 220vh; 
+    background-size: cover;
+    padding: 20px;
+  }
+  .megaparentsec3 {
+    margin: 0 2%; 
+    flex-direction: column; 
+  }
+  .imagesec3phone {
+    max-height: 300px; 
+    margin: 20px 0;
+  }
+  .section3leftheading,
+  .specialsec3ColoeChange {
+    font-size: 3.5vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #section3 {
+    min-height: 250vh;
+    background-size: cover;
+  }
+  .section3leftheading,
+  .specialsec3ColoeChange {
+    font-size: 3vh;
+  }
+  .imagesec3phone {
+    max-height: 250px; 
+  }
+  .sec3para {
+    font-size: 1rem; 
+  }
+}
 
 /* section 4 */
-.section4parent{
+.section4parent {
   margin: 0% 20%;
   margin-top: 5%;
 }
 
-.section4headingabout{
+.section4headingabout {
   font-size: 35px;
   font-weight: 600;
- font-family: "Bodoni Moda SC", serif;
-
+  font-family: "Bodoni Moda SC", serif;
 }
 
 /* section 5 */
-.section5parent{
+.section5parent {
   margin: 0% 15%;
 }
-.section5heading{
-    font-size: 35px;
+.section5heading {
+  font-size: 35px;
   font-weight: 600;
- font-family: "Bodoni Moda SC", serif;
-
+  font-family: "Bodoni Moda SC", serif;
 }
-.imgsec5{
-   border-radius: 40px;
-    box-shadow: 0 0 10px black;
-    
-
+.imgsec5 {
+  border-radius: 40px;
+  box-shadow: 0 0 10px black;
 }
-.headingSec5Cards{
+.headingSec5Cards {
   font-size: 28px;
   font-weight: 650;
 }
 
-
 /* section 6 */
-.fontawesomesec6{
+.fontawesomesec6 {
   font-size: 40px;
 }
-.parentsec6{
+.parentsec6 {
   margin-top: 10%;
 }
-.buttonsec6{
+.buttonsec6 {
   height: 50px;
   width: 50px;
   background-color: #ffe537;
   border: none;
   margin-top: 2%;
 }
-#carouselExampleRide{
+#carouselExampleRide {
   margin-top: 5%;
 }
-.sliderheading{
+.sliderheading {
   font-weight: 700;
 }
 
-
-
-
-
-
 /* footer */
-#footer1{
+#footer1 {
   background: url(./assets/footer-bg.png) no-repeat center center;
   background-size: cover;
   overflow: hidden;
   height: 80vh;
 }
-.megaParent212{
+.megaParent212 {
   margin-top: 44vh;
   /* position: absolute; */
 }
 
-
-.fooetrLinls{
+.fooetrLinls {
   text-decoration: none;
   color: white;
-  
 }
-.fooetrLinls2{
+.fooetrLinls2 {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  
-
 }
-.megaMegaParent{
+.megaMegaParent {
   position: relative;
-  
 }
-.fooetrLinls2para{
+.fooetrLinls2para {
   margin-top: 4vh;
-
 }
-.newParentFooter{
+.newParentFooter {
   position: absolute;
   left: 10%;
   right: 10%;
 }
-.parafooterlastBottom{
+.parafooterlastBottom {
   color: white;
   margin-top: 7vh;
   font-size: 17px;
   margin-bottom: 4vh;
 }
-.btnFooter{
+.btnFooter {
   position: absolute;
   right: 2%;
   top: 53vh;
   z-index: 20;
-  
 }
-.btnfooteratag{
+.btnfooteratag {
   text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 992px) {
   .section1Heading {
@@ -382,5 +414,3 @@ body {
     height: 22vh;
   }
 }
-
-

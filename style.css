@@ -213,6 +213,22 @@ body {
 .fontawesomesec6{
   font-size: 40px;
 }
+.parentsec6{
+  margin-top: 10%;
+}
+.buttonsec6{
+  height: 50px;
+  width: 50px;
+  background-color: #ffe537;
+  border: none;
+  margin-top: 2%;
+}
+#carouselExampleRide{
+  margin-top: 5%;
+}
+.sliderheading{
+  font-weight: 700;
+}
 
 
 

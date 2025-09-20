@@ -199,8 +199,8 @@ body {
 }
 .imgsec5{
    border-radius: 40px;
-    box-shadow: 0 0 20px white;
-    transition: 0.8s;
+    box-shadow: 0 0 10px black;
+    
 
 }
 .headingSec5Cards{
@@ -215,6 +215,60 @@ body {
 
 
 /* footer */
+#footer1{
+  background: url(./assets/footer-bg.png) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  height: 80vh;
+}
+.megaParent212{
+  margin-top: 44vh;
+  /* position: absolute; */
+}
+
+
+.fooetrLinls{
+  text-decoration: none;
+  color: white;
+  
+}
+.fooetrLinls2{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  
+
+}
+.megaMegaParent{
+  position: relative;
+  
+}
+.fooetrLinls2para{
+  margin-top: 4vh;
+
+}
+.newParentFooter{
+  position: absolute;
+  left: 10%;
+  right: 10%;
+}
+.parafooterlastBottom{
+  color: white;
+  margin-top: 7vh;
+  font-size: 17px;
+  margin-bottom: 4vh;
+}
+.btnFooter{
+  position: absolute;
+  right: 2%;
+  top: 53vh;
+  z-index: 20;
+  
+}
+.btnfooteratag{
+  text-decoration: none;
+}
+
 
 
 

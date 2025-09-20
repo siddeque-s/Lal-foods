@@ -117,6 +117,10 @@ body {
   width: 50px;
   height: 50px;
 }
+.buttonSec2imagedown:hover{
+  background-color: #25d366;
+  color: black;
+}
 .btnSec2DownBtu {
   padding: 10px 24px;
   border: none;
@@ -127,9 +131,28 @@ body {
 #sec2secondbtngreen {
   background-color: #25d366;
   color: white;
+  transition: 0.4s;
+}
+#sec2secondbtngreen:hover{
+   scale: 1.1;
 }
 #btn1stsec2down {
   background-color: #ffe537;
+   animation: shadowPulse 2s infinite;
+   border: 2px solid #ffe537;
+   transition: 0.4s;
+}
+#btn1stsec2down:hover{
+  background-color: white;
+  scale: 1.1;
+}
+@keyframes shadowPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
 }
 
 /* section 3 */
@@ -157,6 +180,11 @@ body {
 
 #section3btn {
   background-color: #5de990;
+  border: 2px solid #5de990;
+  transition: 0.4s;
+}
+#section3btn:hover{
+  background-color: transparent;
 }
 
 .imagesec3phone {
